@@ -35,6 +35,10 @@
 #include "pylith/materials/RheologyPoroelasticity.hh"
 #include "pylith/materials/IsotropicLinearPoroelasticity.hh"
 
+#include "pylith/materials/SelfGravElasticity.hh"
+#include "pylith/materials/RheologySelfGravElasticity.hh"
+#include "pylith/materials/IsotropicSelfGravElasticity.hh"
+
 #include "pylith/utils/arrayfwd.hh"
 %}
 
@@ -78,5 +82,9 @@ import_array();
 %include "Poroelasticity.i"
 %include "RheologyPoroelasticity.i"
 %include "IsotropicLinearPoroelasticity.i"
+
+%include "SelfGravElasticity.i"
+%include "RheologySelfGravElasticity.i"
+%include "IsotropicSelfGravElasticity.i"
 
 // End of file
