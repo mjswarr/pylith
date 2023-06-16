@@ -55,6 +55,7 @@ dist_noinst_PYTHON = \
 	materials/TestRheologyLinearElasticity.py \
 	materials/TestRheologyPoroelasticity.py \
 	materials/TestRheologyViscoelasticity.py \
+	materials/TestSelfGravElasticity.py \
 	meshio/__init__.py \
 	meshio/TestDataWriter.py \
 	meshio/TestDataWriterHDF5.py \
