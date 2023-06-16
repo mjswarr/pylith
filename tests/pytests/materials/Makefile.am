@@ -30,6 +30,7 @@ noinst_PYTHON = \
 	TestIsotropicLinearGenMaxwellPlaneStrain.py \
 	TestIsotropicLinearElasticity3D.py \
 	TestIsotropicLinearMaxwell3D.py \
+	TestSelfGravElasticity \
 	TestIsotropicLinearGenMaxwell3D.py
 
 
